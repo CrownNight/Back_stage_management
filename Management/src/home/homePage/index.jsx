@@ -2,7 +2,8 @@ import React from 'react';
 import webApi from '../share/webApi';
 import { Button, Card, Row, Col } from 'antd';
 import urls from '../urls/url';
-import ChartData from './components/chartData'
+import ChartData from './components/chartData';
+import ListData from './components/listData'
 
 export default class Index extends React.Component {
     constructor() {
@@ -29,6 +30,9 @@ export default class Index extends React.Component {
                 <div>
                     <Button onClick={this.click.bind(this)} type="primary">点击执行123</Button>
                     {this.state.data[0]}
+                </div>
+                <div style={{marginTop:15}}>
+                    <ListData/>
                 </div>
             </Row>
         )
