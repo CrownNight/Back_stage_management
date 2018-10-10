@@ -1,6 +1,6 @@
 import React from 'react';
 import {Route} from 'react-router-dom';
-import Index from '../home/index';
+import homePage from '../home/homePage';
 
 export default class IndexRoute extends React.Component{
     constructor(){
@@ -10,7 +10,7 @@ export default class IndexRoute extends React.Component{
     render(){
         return(
             <div>
-                <Route exact path='/personalBlog/homepage' component={Index}/>
+                <Route exact path='/management/homepage' component={homePage}/>
             </div>
         )
     }

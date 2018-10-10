@@ -13,8 +13,6 @@ D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.A
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.TagHelpers.input.cache
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.TagHelpers.output.cache
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.RazorCoreGenerate.cache
-D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
-D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -26,4 +24,3 @@ D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.V
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.dll
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.pdb
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.csproj.CopyComplete
-D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.csprojAssemblyReference.cache
