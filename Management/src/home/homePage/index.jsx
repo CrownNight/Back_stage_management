@@ -1,9 +1,10 @@
 import React from 'react';
 import webApi from '../share/webApi';
-import { Button, Card, Row, Col } from 'antd';
+import { Button, Card, Row, Col,Divider } from 'antd';
 import urls from '../urls/url';
 import ChartData from './components/chartData';
-import ListData from './components/listData'
+import ListData from './components/listData';
+import LineCharts from './components/lineCharts'
 
 export default class Index extends React.Component {
     constructor() {
@@ -28,10 +29,9 @@ export default class Index extends React.Component {
                     <ChartData />
                 </div>
                 <div>
-                    <Button onClick={this.click.bind(this)} type="primary">点击执行123</Button>
-                    {this.state.data[0]}
+                   <LineCharts/>
                 </div>
-                <div style={{marginTop:15}}>
+                <div style={{marginTop:5}}>
                     <ListData/>
                 </div>
             </Row>

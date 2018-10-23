@@ -24,3 +24,4 @@ D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.V
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.dll
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.pdb
 D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.csproj.CopyComplete
+D:\Project\Back_stage_management\Management\obj\Debug\netcoreapp2.1\Management.csprojAssemblyReference.cache
