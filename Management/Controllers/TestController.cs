@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Management.Database;
+using Management.Database.Dto;
 using Management.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,25 +12,38 @@ namespace Management.Controllers
     [Route("api/base")]
     public class TestController : Controller
     {
+        public readonly DataContext db;
 
+        public TestController(DataContext db)
+        {
+            this.db = db;
+        }
         // GET api/values
         [HttpGet("get")]
-        public IEnumerable<string> Get()
+        public IActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var list = db.artical.Where(x => x.Id == 1).ToList();
+            return Ok(list);
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("info")]
+        public IActionResult GetInfo()
         {
-            return "value";
+            var list = db.Infos.Where(x => x.Id == 1).ToList();
+            return Ok(list);
         }
 
         // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
+        [HttpGet("addText")]
+        public IActionResult add()
         {
+
+            Infos newList = new Infos { Id = 2, Info = "1234546" };
+            db.Infos.Add(newList);
+            db.SaveChanges();
+            return Ok();
+                
         }
 
         // PUT api/values/5

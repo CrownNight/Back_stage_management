@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Management.Database;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
@@ -29,6 +31,7 @@ namespace Management
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new Info { Title = "My Api", Version = "v1" });
             });
+            services.AddDbContext<DataContext>(options => options.UseMySQL(AppConfig.MysqlConnection));
         }
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {

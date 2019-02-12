@@ -54,7 +54,7 @@ using Management.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n");
             EndContext();
             BeginContext(35, 217, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38d49c61b7c44619bb0ffcd096fac1fc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22ffe86b4e41499dbf94b494dd2a03ea", async() => {
                 BeginContext(41, 176, true);
                 WriteLiteral("\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\r\n    <title>");
                 EndContext();
@@ -84,7 +84,7 @@ using Management.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(254, 82, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78535bf33b314ca28ee0a38e69e322df", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd0a207f9abd4a7e962145a40dcd5c1e", async() => {
                 BeginContext(260, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();

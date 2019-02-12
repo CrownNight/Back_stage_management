@@ -8,7 +8,6 @@ namespace Management.Models
     public class Test
     {
         public int Id;
-        public string Name;
-        public int Age;
+        public string Infos;
     }
 }

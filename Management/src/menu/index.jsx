@@ -38,7 +38,6 @@ export default class Index extends React.Component {
         return (
             <Router history={hashHistory}>
                 <div>
-                    <Header></Header>
                     <Layout style={{ minHeight: '91.5vh' }}>
                         <Sider>
                            <Menu theme="dark" defaultSelectedKeys={['0']} mode="inline" >
@@ -46,6 +45,7 @@ export default class Index extends React.Component {
                             </Menu>
                         </Sider>
                         <Layout>
+                        {/* <Header  theme="light"></Header> */}
                             <Content>
                                 <IndexRoute />
                             </Content>
