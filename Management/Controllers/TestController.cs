@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 using Management.Database;
 using Management.Database.Dto;
-using Management.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Management.Controllers
